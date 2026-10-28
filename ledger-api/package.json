@@ -1,0 +1,22 @@
+{
+  "name": "ledger-api",
+  "version": "1.0.0",
+  "description": "Account ledger API: accounts, immutable transactions, transfers",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
